@@ -2,12 +2,10 @@ using AutoMapper;
 using Hotel.API;
 using Hotel.API.Controllers;
 using Hotel.API.Models;
-using Hotel.BLL.DTO;
 using Hotel.BLL.Interfaces;
 using Hotel.DAL.Interfaces;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
@@ -180,22 +178,6 @@ namespace Hotel.Tests
             var response = con.Get("2021-07-02");
 
             Assert.AreEqual(response, 888);
-        }
-
-
-
-        private TestServer CreateServer()
-        {
-            var builder = new WebHostBuilder()
-            .UseStartup<Startup>();
-            //using (var testServer = CreateServer())
-            //{
-            //    var client = testServer.CreateClient();
-            //    var value = await client.GetAsync("api/Guest");
-            //    var response = value.Content;
-            //}
-            return new TestServer(builder);
-
         }
     }
 }
