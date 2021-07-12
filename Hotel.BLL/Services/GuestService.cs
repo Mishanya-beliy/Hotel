@@ -4,6 +4,7 @@ using Hotel.BLL.Interfaces;
 using Hotel.DAL.Entities;
 using Hotel.DAL.Interfaces;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Hotel.BLL.Services
 {
@@ -20,12 +21,14 @@ namespace Hotel.BLL.Services
 
         public IEnumerable<GuestDTO> GetAllGuests()
         {
-            return _mapper.Map<List<GuestDTO>>(_database.Guests.GetAll());
+            return  _mapper.Map<List<GuestDTO>>(_database.Guests.GetAll());
         }
 
 
-        public GuestDTO Get(int id)
+        public GuestDTO Get(int id)//GuestDTO Get(int id)
         {
+            //var bookings = _database.Guests.Get(id).Bookings.ToList();
+            
             return _mapper.Map<GuestDTO>(_database.Guests.Get(id));
         }
 

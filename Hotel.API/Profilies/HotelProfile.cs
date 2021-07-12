@@ -12,6 +12,9 @@ namespace Hotel.API.Profilies
             CreateMap<Guest, GuestDTO>();
             CreateMap<GuestDTO, GuestModel>();
 
+            CreateMap<GuestModel, GuestDTO>();
+            CreateMap<GuestDTO, Guest>();
+
 
             CreateMap<Booking, BookingDTO>();
                      CreateMap<BookingDTO, BookingModel>();

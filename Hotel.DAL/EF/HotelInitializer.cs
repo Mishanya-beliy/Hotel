@@ -64,13 +64,14 @@ namespace Hotel.DAL.EF
                 CheckIn = new DateTime(2021, 7, 1),
                 CkeckOut = new DateTime(2021, 7, 3)
             };
-
+            context.Guests.Find(1).Bookings.Add(booking);
             context.Bookings.Add(booking);
             context.SaveChanges();
         }
 
         public static void Initialize(HotelContext context)
         {
+            context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
 
             //if (context.Guests.Any)

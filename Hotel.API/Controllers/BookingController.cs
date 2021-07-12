@@ -23,9 +23,9 @@ namespace Hotel.API.Controllers
 
         // GET: api/<BookingController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<BookingModel> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _mapper.Map<List<BookingModel>>(_service.GetAllBookings());
         }
 
         // GET api/<BookingController>/5

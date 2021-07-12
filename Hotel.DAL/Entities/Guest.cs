@@ -5,6 +5,10 @@ namespace Hotel.DAL.Entities
 {
     public class Guest
     {
+        public Guest()
+        {
+            Bookings = new HashSet<Booking>();
+        }
         public int ID { set; get; }
         public string Name { get; set; }
         public string Surname { get; set; }
