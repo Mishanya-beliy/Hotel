@@ -2,39 +2,56 @@
 using Hotel.DAL.Entities;
 using Hotel.DAL.Interfaces;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Hotel.DAL.Repositories
 {
     public class PriceRepository : IRepository<Price>
     {
-        private HotelContext db;
+        private HotelContext _db;
 
         public PriceRepository(HotelContext db)
         {
-            this.db = db;
+            _db = db;
         }
 
         public IEnumerable<Price> GetAll()
         {
-            return db.Prices;
+            return _db.Prices;
         }
         public Price Get(int id)
         {
-            return db.Prices.Find(id);
+            return _db.Prices.FirstOrDefault(r => r.ID == id);
         }
-        public void Create(Price price)
+        public int Create(Price price)
         {
-            db.Prices.Add(price);
-            db.SaveChanges();
+            _db.Prices.Add(price);
+            _db.SaveChanges();
+            return price.ID;
         }
         public bool Update(int id, Price newPrice)
         {
-            if (!Delete(id))
-                return false;
+            try
+            {
+                var oldPrice = Get(newPrice.ID);
+                if (oldPrice is null)
+                    return false;
 
-            Create(newPrice);
-            db.SaveChanges();
-            return true;
+                if (newPrice.Start != default && oldPrice.Start != newPrice.Start)
+                    oldPrice.Start = newPrice.Start;
+                if (newPrice.End != default && oldPrice.End != newPrice.End)
+                    oldPrice.End = newPrice.End;
+                if (newPrice.Coast != default && oldPrice.Coast != newPrice.Coast)
+                    oldPrice.Coast = newPrice.Coast;
+
+                _db.Prices.Update(oldPrice);
+                _db.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
         public bool Delete(int id)
         {
@@ -42,8 +59,8 @@ namespace Hotel.DAL.Repositories
             if (price == null)
                 return false;
 
-            db.Prices.Remove(price);
-            db.SaveChanges();
+            _db.Prices.Remove(price);
+            _db.SaveChanges();
             return true;
         }
     }

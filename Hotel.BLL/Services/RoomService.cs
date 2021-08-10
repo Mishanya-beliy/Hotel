@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Hotel.BLL.DTO;
 using Hotel.BLL.Interfaces;
+using Hotel.DAL.Entities;
+using Hotel.DAL.Entities.DbIncludeSettings;
 using Hotel.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -19,9 +21,17 @@ namespace Hotel.BLL.Services
             _mapper = mapper;
         }
 
-        public IEnumerable<RoomDTO> GetAllRooms()
+        public int Create(RoomDTO room)
         {
-            return _mapper.Map<List<RoomDTO>>(_database.Rooms.GetAll());
+            return _database.Rooms.Create(_mapper.Map<Room>(room));
+
+        }
+        public bool Update(RoomDTO room)
+        {
+            var id = room.ID;
+            //room.Category = null;
+            //room.Bookings = null;
+            return _database.Rooms.Update(id, _mapper.Map<Room>(room));
         }
 
 
@@ -30,24 +40,46 @@ namespace Hotel.BLL.Services
             return _mapper.Map<RoomDTO>(_database.Rooms.Get(id));
         }
 
-        public IEnumerable<RoomDTO> GetFreeRoomsOnDate(DateTime date)
+        public IEnumerable<RoomDTO> GetAllRooms()
         {
-            List<RoomDTO> rooms = GetAllRooms().ToList();
+            return _mapper.Map<List<RoomDTO>>(_database.Rooms.GetAll());
+        }
+        public IEnumerable<RoomDTO> GetFreeRooms(DateTime start, DateTime end, int countPeople)
+        {
+            var rooms = GetAllRooms();
+            //for (DateTime day = start.Date; day < end; day = day.AddDays(1))
+            //    rooms = GetFreeRoomsOnDate(day, rooms, countPeople);
+
+            var freeRooms = (from room in rooms
+                      where room.Category.MaxPeople >= countPeople
+                      && !room.Bookings.Where(booking => (booking.CheckIn >= start && booking.CheckIn <= end)
+                      || (booking.CkeckOut >= start && booking.CkeckOut <= end)).Any()
+                      select room).ToList();
+
+            return freeRooms;
+        }
+
+        private List<RoomDTO> GetFreeRoomsOnDate(DateTime date, List<RoomDTO> rooms, int people)
+        {
             foreach(RoomDTO room in rooms)
-                if (!CheckRoomOnDate(room, date)) 
+                if(room.Category.MaxPeople < people || !CheckRoomOnDate(room, date))
                     rooms.Remove(room);
 
             return rooms;
         }
-        public bool CheckRoomOnDate(RoomDTO room, DateTime date)
+        private bool CheckRoomOnDate(RoomDTO room, DateTime date)
         {
             foreach (BookingDTO booking in room.Bookings)
-            {
                 if (booking.CkeckOut > date)
                     if (booking.CheckIn < date)
                         return false;
-            }
+
             return true;
+        }
+
+        public bool Delete(int id)
+        {
+            return _database.Rooms.Delete(id);
         }
     }
 }

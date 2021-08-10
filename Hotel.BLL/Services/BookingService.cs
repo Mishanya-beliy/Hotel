@@ -11,14 +11,15 @@ namespace Hotel.BLL.Services
     public class BookingService : IBookingService
     {
         private readonly IMapper _mapper;
+        private readonly IPriceService _priceService;
         private readonly IRepositoryManager _database;
-        private readonly IRoomService _roomService;
 
-        public BookingService(IRepositoryManager database, IMapper mapper, IRoomService roomService)
+        public BookingService(IRepositoryManager database, IMapper mapper,
+            IPriceService priceService)
         {
-            _database = database;
             _mapper = mapper;
-            _roomService = roomService;
+            _database = database;
+            _priceService = priceService;
         }
 
         public IEnumerable<BookingDTO> GetAllBookings()
@@ -32,16 +33,35 @@ namespace Hotel.BLL.Services
             return _mapper.Map<BookingDTO>(_database.Bookings.Get(id));
         }
 
-        public void Booking(BookingDTO booking)
+        public ConfirmBookingDTO Booking(BookingDTO booking)
         {
-            DateTime checkDate = booking.CheckIn;
-            while(checkDate <= booking.CkeckOut)
+            if (booking.CheckIn == DateTime.MinValue || booking.CkeckOut == DateTime.MinValue ||
+                booking.CheckIn < DateTime.Now || booking.CheckIn > booking.CkeckOut)
+                return null;
+
+            int id = _database.Bookings.Create(_mapper.Map<Booking>(booking));
+            if (id > 0)
             {
-                if (!_roomService.CheckRoomOnDate(_roomService.Get(booking.RoomID), checkDate))
-                    return;
-                checkDate = checkDate.AddDays(1);
+                booking = Get(id);
+                if (booking is null)
+                    return null;
+
+                return new ConfirmBookingDTO($"{booking.Guest.Name} { booking.Guest.Surname }", booking.Room.Name, 
+                    _priceService.CalculatePrice(booking.Room.Category, booking.CheckIn, booking.CkeckOut),
+                    booking.CheckIn, booking.CkeckOut);
             }
-            _database.Bookings.Create(_mapper.Map<Booking>(booking));
+            
+            return null;
+        }
+
+        public bool Delete(int id)
+        {
+            return _database.Bookings.Delete(id);
+        }
+
+        public bool Update(int id, BookingDTO bookingDTO)
+        {
+            return _database.Bookings.Update(id, _mapper.Map<Booking>(bookingDTO));
         }
     }
 }

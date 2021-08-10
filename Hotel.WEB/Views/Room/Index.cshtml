@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Hotel.WEB.Models.RoomModel>
+
+@{
+    ViewData["Title"] = "Rooms";
+}
+
+<div class="container">
+    <br />
+    <h3>
+        Rooms
+        <a asp-action="Create" class="right">Add</a>
+    </h3>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category.Bed)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category.MaxPeople)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var room in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => room.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => room.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => room.Category.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => room.Category.Bed)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => room.Category.MaxPeople)
+                    </td>
+                    <td class="right">
+                        <a asp-action="Edit" asp-route-id="@room.ID">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@room.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,45 @@
+﻿@model Hotel.WEB.Models.RoomFind
+
+@{
+    ViewData["Title"] = "Hotel";
+}
+
+<div id="focus-container" class="grey darken-3">
+    <img class="responsive-img" src="~/Resource/intro.jpg">
+    <div id="focus" class="center">
+        <h1 class="header white-text black">Welcome to wonderful hotel</h1>
+        <a href="#find" class=" btn-large red black-text"><h5 class="">Booking room</h5></a>
+    </div>
+</div>
+
+<link rel="stylesheet" href="~/css/inputblack.css">
+<div id="find" class="grey darken-3 row" style="padding:15px;margin-bottom:0px;">
+    <div class="container">
+        <form asp-action="Display" asp-controller="Room">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col  m5">
+                <label asp-for="From" class="control-label"></label>
+            </div>
+            <div class="col m5">
+                <label asp-for="To" class="control-label"></label>
+            </div>
+            <div class="col m2">
+                <label asp-for="CountPeople" class="control-label"></label>
+            </div>
+            <div class="col  m5">
+                <input asp-for="From" class="form-control" />
+            </div>
+            <div class="col m5">
+                <input asp-for="To" class="form-control" />
+            </div>
+            <div class="col m2">
+                <input asp-for="CountPeople" class="form-control" />
+            </div>
+            <div class="col offset-m10 m2">
+                <input type="submit" class="btn right red black-text" value="Find" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

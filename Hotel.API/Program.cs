@@ -19,7 +19,7 @@ namespace Hotel.API
                 try
                 {
                     var context = services.GetRequiredService<HotelContext>();
-                    HotelInitializer.Initialize(context);
+                    //HotelInitializer.Initialize(context);
                 }
                 catch (Exception ex)
                 {

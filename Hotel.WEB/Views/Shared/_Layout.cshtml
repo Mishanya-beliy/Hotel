@@ -1,0 +1,122 @@
+﻿@using static Hotel.WEB.Additional.Routes
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]  Hotel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto+Mono:wght@500&family=STIX+Two+Math&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="~/css/Lay.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    @*<link rel="stylesheet" href="~/lib/ma bootstrap/dist/css/bootstrap.min.css" />*@
+</head>
+<body>
+
+    <main class="grey darken-4 red-text pb-3">
+        <header>
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper red">
+                        <div class="container">
+                            <a href="@Url.Action("Index", "Home")" class="left">
+                                <img class="left logo" src="~/Resource/logo.png" />
+                            </a>
+                            <div class="right">
+                                <ul>
+                                    @{
+                                        if (Html.ViewContext.HttpContext.User.Identity.IsAuthenticated)
+                                        {
+                                            if (Html.ViewContext.HttpContext.User.IsInRole("Administrator"))
+                                            {
+                                                <li class="black-text headers">
+                                                    <a href=@RemoveAdmin>Remove admin</a>
+                                                </li>
+                                            }
+                                            else
+                                            {
+                                                <li class="black-text headers">
+                                                    <a href=@SetAdimin>Set admin</a>
+                                                </li>
+                                            }
+                                            <li class="black-text headers">
+                                                @Html.ActionLink("Profile", "Edit", "Guest")
+                                            </li>
+                                            <li class="black-text headers">
+                                                @*@Html.RouteLink("Logout", )*@
+                                                @Html.ActionLink("Logout", "Logout", "Account")
+                                            </li>
+                                        }
+                                        else
+                                        {
+                                            <li class="black-text headers">
+                                                @Html.ActionLink("Register", "Register", "Account")
+                                            </li>
+                                            <li class="black-text headers">
+                                                @Html.RouteLink("Login", nameof(AccountLogin))
+                                            </li>
+                                        }
+                                    }
+                                </ul>
+                            </div>
+                            @{
+                                if (Html.ViewContext.HttpContext.User.IsInRole("Administrator"))
+                                {
+                                                        <ul>
+                                                            <li><a href="@Url.Action("Index", "Guest")">Guests</a></li>
+                                                            <li><a href="@Url.Action("Index", "Room")">Rooms</a></li>
+                                                            <li><a href="@Url.Action("Index", "Booking")">Bookings</a></li>
+                                                            <li><a href="@Url.Action("Index", "Category")">Category</a></li>
+                                                            <li><a href="@Url.Action("Profit", "Booking")">Profit</a></li>
+                                                            <li><a href="@Url.Action("Index", "Role")">Role</a></li>
+                                                            <li><a href="@Url.Action("Index", "Loging")">Loging</a></li>
+                                                        </ul>
+                                }
+                            }
+                            <ul class="right hide-on-med-and-down">
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+        
+        @RenderBody()
+    </main>
+
+    <footer id="bottom" class="page-footer red">
+
+        <div class="container row">
+            <div class="col s3">
+                <h5>Help</h5>
+                + (380) - 97 3333 444
+            </div>
+            <div class="col offset-m6 s3">
+                <h5>Booking</h5>
+                + (380) - 97 4444 333
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="right">
+                    Create by Mykhailo Tolstikhin &copy @DateTime.Now.Year <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

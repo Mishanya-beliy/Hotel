@@ -8,6 +8,7 @@ namespace Hotel.DAL.EF
         public HotelContext(DbContextOptions<HotelContext> options) : base(options)
         {
         }
+
         public DbSet<Guest> Guests { set; get; }
         public DbSet<Booking> Bookings { set; get; }
         public DbSet<Room> Rooms { set; get; }

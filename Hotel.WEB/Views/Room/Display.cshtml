@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Hotel.WEB.Models.RoomModel>
+@using static Hotel.WEB.Additional.Routes
+
+@{
+    ViewBag.Title = "Free rooms";
+}
+
+<div class="container">
+    <h3>Free rooms</h3>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    Category
+                </th>
+                <th>
+                    Count sleeping place
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var room in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelitem => room.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelitem => room.Category.Name)
+                    </td>
+                    <td>
+                        @room.Category.Bed
+                    </td>
+                    <td>                        
+                        @Html.ActionLink("Booking", "Booking", "Booking",
+                       new BookingCreateModel(room.ID, ViewBag.Start, ViewBag.End))
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,35 @@
+﻿@model Hotel.WEB.Models.CategoryModel
+
+@{ 
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container">
+    <h4>Edit</h4>
+    <hr />
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="ID" />
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="row">
+            <div class="col m6 form-group">
+                <label asp-for="Bed" class="control-label"></label>
+                <input asp-for="Bed" class="form-control" />
+                <span asp-validation-for="Bed" class="text-danger"></span>
+            </div>
+            <div class="col m6 form-group">
+                <label asp-for="MaxPeople" class="control-label"></label>
+                <input asp-for="MaxPeople" class="form-control" />
+                <span asp-validation-for="MaxPeople" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <a asp-action="Index">Back to List</a>
+            <input type="submit" value="Save" class="btn red right btn-primary" />
+        </div>
+    </form>
+</div>

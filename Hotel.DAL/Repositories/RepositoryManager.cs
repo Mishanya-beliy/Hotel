@@ -1,5 +1,6 @@
 ﻿using Hotel.DAL.EF;
 using Hotel.DAL.Entities;
+using Hotel.DAL.Entities.DbIncludeSettings;
 using Hotel.DAL.Interfaces;
 
 namespace Hotel.DAL.Repositories

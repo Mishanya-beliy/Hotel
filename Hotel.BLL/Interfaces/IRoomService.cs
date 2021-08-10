@@ -6,9 +6,12 @@ namespace Hotel.BLL.Interfaces
 {
     public interface IRoomService
     {
-        IEnumerable<RoomDTO> GetAllRooms();
         RoomDTO Get(int id);
-        public IEnumerable<RoomDTO> GetFreeRoomsOnDate(DateTime date);
-        public bool CheckRoomOnDate(RoomDTO room, DateTime date);
+        IEnumerable<RoomDTO> GetAllRooms();
+        public IEnumerable<RoomDTO> GetFreeRooms(DateTime start, DateTime end, int countPeople);
+
+        public bool Update(RoomDTO room);
+        public int Create(RoomDTO room);
+        bool Delete(int id);
     }
 }

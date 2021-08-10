@@ -1,0 +1,33 @@
+﻿@model Auth.Models.RegisterModel 
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Login)
+            @Html.EditorFor(model => model.Login)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password)
+            @Html.EditorFor(model => model.Password)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password)
+            @Html.EditorFor(model => model.Password)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.ConfirmPassword)
+            @Html.EditorFor(model => model.ConfirmPassword)
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn" value="Register" />
+        </div>
+    </div>
+} 

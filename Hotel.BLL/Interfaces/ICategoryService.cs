@@ -7,5 +7,8 @@ namespace Hotel.BLL.Interfaces
     {
         IEnumerable<CategoryDTO> GetAllCategories();
         CategoryDTO Get(int id);
+        int Create(CategoryDTO categoryDTO);
+        bool Update(CategoryDTO categoryDTO);
+        bool Delete(int id);
     }
 }

@@ -1,0 +1,144 @@
+﻿@model Hotel.WEB.Models.Guest.FullGuest
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link rel="stylesheet" href="~/css/Details.css">
+
+<div class="container">
+    <div class="row">
+
+        <h4>Profile guest</h4><hr />
+
+        <div class="col m6">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Name)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Surname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Surname)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Patronymic)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Patronymic)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.DateOfBirth)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.DateOfBirth)
+                        </td>
+                </tbody>
+            </table>
+        </div>
+        <div class="col m6">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.City)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.City)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Street)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Street)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.House)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.House)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayNameFor(model => model.Apartment)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Apartment)
+                        </td>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col m12">
+            <h4>Guest bookings</h4>
+            <hr />
+            @if (Model.Bookings.Any())
+            {
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                Room name
+                            </th>
+                            <th>
+                                Category
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                            <th>
+                                Checkin
+                            </th>
+                            <th>
+                                Checkout
+                            </th>
+                        </tr>
+                    </thead>
+                    @foreach (var booking in Model.Bookings)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => booking.Room.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => booking.Room.Category.Name)
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => booking.CheckIn)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => booking.CkeckOut)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-controller="Booking" asp-route-id="@booking.ID">Edit</a> |
+                                <a asp-action="Details" asp-controller="Booking" asp-route-id="@booking.ID">Details</a> |
+                                <a asp-action="Delete" asp-controller="Booking" asp-route-id="@booking.ID">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+            else
+            { <h5>Guest don`t have bookings yet.</h5>}
+        </div>
+    </div>
+</div>

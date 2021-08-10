@@ -1,0 +1,44 @@
+﻿@model Hotel.WEB.Models.Booking.BookingModel
+
+    <div class="container">
+        <h4>Booking</h4>
+        <hr />
+        <div class="row">
+            <div class="col m6 s12">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="ID" />
+                    <div class="form-group">
+                        <label asp-for="GuestID" class="control-label"></label>
+                        <select asp-for="GuestID" class="form-control" style="display:inline-block" asp-items="ViewBag.GuestID"></select>
+                        <span asp-validation-for="GuestID" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="RoomID" class="control-label"></label>
+                        <select asp-for="RoomID" class="form-control" style="display:inline-block" asp-items="ViewBag.RoomID"></select>
+                        <span asp-validation-for="RoomID" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CheckIn" class="control-label"></label>
+                        <input asp-for="CheckIn" class="form-control" />
+                        <span asp-validation-for="CheckIn" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CkeckOut" class="control-label"></label>
+                        <input asp-for="CkeckOut" class="form-control" />
+                        <span asp-validation-for="CkeckOut" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="BookingDate" class="control-label"></label>
+                        <input asp-for="BookingDate" class="form-control" />
+                        <span asp-validation-for="BookingDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <a asp-action="Index">Back to List</a>
+                        <input type="submit" value="Save" class="btn right red btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+

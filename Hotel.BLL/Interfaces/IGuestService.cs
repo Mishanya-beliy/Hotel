@@ -7,6 +7,10 @@ namespace Hotel.BLL.Interfaces
     {
         IEnumerable<GuestDTO> GetAllGuests();
         GuestDTO Get(int id);
-        void Registration(GuestDTO guest);
+        int Registration(GuestDTO guest);
+        public bool Update(GuestDTO guest);
+        int GetIdByEmail(string email);
+        bool Remove(int id);
+        int Create(GuestDTO guest);
     }
 }

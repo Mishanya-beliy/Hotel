@@ -9,5 +9,7 @@ namespace Hotel.BLL.Interfaces
         IEnumerable<PriceDTO> GetAllPrices();
         PriceDTO Get(int id);
         public int ProfitPerMonth(DateTime date);
+        public int CalculatePrice(CategoryDTO category, DateTime start, DateTime end);
+        public int Profit(DateTime start, DateTime end);
     }
 }

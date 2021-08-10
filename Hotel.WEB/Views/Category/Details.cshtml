@@ -1,0 +1,37 @@
+﻿@model Hotel.WEB.Models.CategoryModel
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+    <div>
+        <h4>Details</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col m2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col m10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col m2">
+                @Html.DisplayNameFor(model => model.Bed)
+            </dt>
+            <dd class="col m10">
+                @Html.DisplayFor(model => model.Bed)
+            </dd>
+            <dt class="col m2">
+                @Html.DisplayNameFor(model => model.MaxPeople)
+            </dt>
+            <dd class="col m10">
+                @Html.DisplayFor(model => model.MaxPeople)
+            </dd>
+        </dl>
+    </div>
+    <div class="right">
+        <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>

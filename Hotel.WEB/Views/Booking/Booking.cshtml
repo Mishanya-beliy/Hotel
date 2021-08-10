@@ -1,0 +1,21 @@
+﻿@model Hotel.WEB.Models.Booking.ConfirmBooking
+
+<div class="container">
+    <h2>Your room is booking</h2>
+
+    @Html.Label("Room: ")
+    @Model.RoomName
+    <br />
+
+    @Html.Label("For date: ")
+    @Model.CheckIn -
+    @Model.CheckOut
+    <br />
+
+    @Html.Label("On name: ")
+    @Model.Name
+    <br />
+
+    @Html.LabelFor(model => model.Coast)
+    @Model.Coast
+</div>

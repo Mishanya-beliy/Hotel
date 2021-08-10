@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<form>
+    <input type="text" name="message" id="msg" />
+    <input type="button" name="Send" value="Send" id="sendMsg" />
+</form>
+
+<div id="chat">
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/signalr/dist/browser/signalr.min.js"></script>
+    <script>
+        const hubConnection = new signalR.HubConnectionBuilder()
+            .withUrl("/chat")
+            .build();
+
+        hubConnection.on("Send", function (data) {
+
+            let elem = document.createElement("p");
+            elem.appendChild(document.createTextNode(data));
+            let firstElem = document.getElementById("chat").firstChild;
+            document.getElementById("chat").insertBefore(elem, firstElem);
+
+        });
+
+        document.getElementById("sendMsg").addEventListener("click", function (e) {
+            let message = document.getElementById("msg").value;
+            hubConnection.invoke("Send", message);
+        });
+
+        hubConnection.start();
+    </script>
+}

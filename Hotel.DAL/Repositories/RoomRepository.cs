@@ -1,40 +1,57 @@
 ﻿using Hotel.DAL.EF;
 using Hotel.DAL.Entities;
+using Hotel.DAL.Entities.DbIncludeSettings;
 using Hotel.DAL.Interfaces;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Hotel.DAL.Repositories
 {
     public class RoomRepository : IRepository<Room>
     {
-        private HotelContext db;
+        private HotelContext _db;
 
         public RoomRepository(HotelContext db)
         {
-            this.db = db;
+            _db = db;
         }
 
         public IEnumerable<Room> GetAll()
         {
-            return db.Rooms;
+            return _db.Rooms;
         }
         public Room Get(int id)
         {
-            return db.Rooms.Find(id);
+            return _db.Rooms.FirstOrDefault(r => r.ID == id);
         }
-        public void Create(Room room)
+        public int Create(Room room)
         {
-            db.Rooms.Add(room);
-            db.SaveChanges();
+            room.Category = null;
+            _db.Rooms.Add(room);
+            _db.SaveChanges();
+            return room.ID;
         }
         public bool Update(int id, Room newRoom)
         {
-            if (!Delete(id))
-                return false;
+            try
+            {
+                var oldRoom = Get(newRoom.ID);
+                if (oldRoom is null)
+                    return false;
 
-            Create(newRoom);
-            db.SaveChanges();
-            return true;
+                if (newRoom.Name != default && oldRoom.Name != newRoom.Name)
+                    oldRoom.Name = newRoom.Name;
+                if (newRoom.CategoryID != default && oldRoom.CategoryID != newRoom.CategoryID)
+                    oldRoom.CategoryID = newRoom.CategoryID;
+
+                _db.Rooms.Update(oldRoom);
+                _db.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
         public bool Delete(int id)
         {
@@ -42,8 +59,8 @@ namespace Hotel.DAL.Repositories
             if (room == null)
                 return false;
 
-            db.Rooms.Remove(room);
-            db.SaveChanges();
+            _db.Rooms.Remove(room);
+            _db.SaveChanges();
             return true;
         }
     }

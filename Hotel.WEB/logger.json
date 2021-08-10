@@ -1,0 +1,416 @@
+{"EventId":0,"LogLevel":"Information","Message":"Start server"}
+{"EventId":1,"LogLevel":"Information","Message":"Start server"}
+{"EventId":2,"LogLevel":"Information","Message":"Start server"}
+{"EventId":3,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":4,"LogLevel":"Information","Message":"Start server"}
+{"EventId":5,"LogLevel":"Information","Message":"Start server"}
+{"EventId":6,"LogLevel":"Information","Message":"Start server"}
+{"EventId":7,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":7,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":7,"LogLevel":"Warning","Message":"Role 7e941766-148d-46b6-a740-a4f4a1493a80 validation failed: DuplicateRoleName."}
+{"EventId":8,"LogLevel":"Warning","Message":"Role bacb39e1-f081-439a-a159-238627abb8d8 validation failed: DuplicateRoleName."}
+{"EventId":8,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":12,"LogLevel":"Information","Message":"Start server"}
+{"EventId":13,"LogLevel":"Information","Message":"Start server"}
+{"EventId":14,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":14,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":16,"LogLevel":"Information","Message":"Start server"}
+{"EventId":17,"LogLevel":"Information","Message":"Start server"}
+{"EventId":18,"LogLevel":"Information","Message":"Start server"}
+{"EventId":19,"LogLevel":"Information","Message":"Start server"}
+{"EventId":20,"LogLevel":"Information","Message":"Start server"}
+{"EventId":21,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":22,"LogLevel":"Information","Message":"Start server"}
+{"EventId":23,"LogLevel":"Information","Message":"Start server"}
+{"EventId":24,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":24,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":25,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":27,"LogLevel":"Information","Message":"Start server"}
+{"EventId":28,"LogLevel":"Information","Message":"Start server"}
+{"EventId":29,"LogLevel":"Information","Message":"Start server"}
+{"EventId":30,"LogLevel":"Information","Message":"Start server"}
+{"EventId":31,"LogLevel":"Information","Message":"Start server"}
+{"EventId":32,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":33,"LogLevel":"Information","Message":"Start server"}
+{"EventId":34,"LogLevel":"Information","Message":"Start server"}
+{"EventId":35,"LogLevel":"Information","Message":"Start server"}
+{"EventId":36,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":37,"LogLevel":"Information","Message":"Start server"}
+{"EventId":38,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":39,"LogLevel":"Information","Message":"Start server"}
+{"EventId":40,"LogLevel":"Information","Message":"Start server"}
+{"EventId":41,"LogLevel":"Information","Message":"Start server"}
+{"EventId":42,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":43,"LogLevel":"Information","Message":"Start server"}
+{"EventId":44,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":45,"LogLevel":"Information","Message":"Start server"}
+{"EventId":46,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":47,"LogLevel":"Information","Message":"Start server"}
+{"EventId":48,"LogLevel":"Information","Message":"Start server"}
+{"EventId":49,"LogLevel":"Information","Message":"Start server"}
+{"EventId":50,"LogLevel":"Information","Message":"Start server"}
+{"EventId":51,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":52,"LogLevel":"Information","Message":"Start server"}
+{"EventId":53,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":54,"LogLevel":"Information","Message":"Start server"}
+{"EventId":55,"LogLevel":"Information","Message":"Start server"}
+{"EventId":56,"LogLevel":"Information","Message":"Start server"}
+{"EventId":57,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":57,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":58,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":60,"LogLevel":"Information","Message":"Start server"}
+{"EventId":61,"LogLevel":"Information","Message":"Start server"}
+{"EventId":62,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":63,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":64,"LogLevel":"Information","Message":"Start server"}
+{"EventId":65,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":65,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":67,"LogLevel":"Information","Message":"Start server"}
+{"EventId":68,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":69,"LogLevel":"Information","Message":"Start server"}
+{"EventId":70,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":71,"LogLevel":"Information","Message":"Start server"}
+{"EventId":72,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":73,"LogLevel":"Information","Message":"Start server"}
+{"EventId":74,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":75,"LogLevel":"Information","Message":"Start server"}
+{"EventId":76,"LogLevel":"Information","Message":"Start server"}
+{"EventId":77,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":78,"LogLevel":"Information","Message":"Start server"}
+{"EventId":79,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":80,"LogLevel":"Information","Message":"Start server"}
+{"EventId":81,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":82,"LogLevel":"Information","Message":"Start server"}
+{"EventId":83,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":84,"LogLevel":"Information","Message":"Start server"}
+{"EventId":85,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":86,"LogLevel":"Information","Message":"Start server"}
+{"EventId":87,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":88,"LogLevel":"Information","Message":"Start server"}
+{"EventId":89,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":90,"LogLevel":"Information","Message":"Start server"}
+{"EventId":91,"LogLevel":"Information","Message":"Start server"}
+{"EventId":92,"LogLevel":"Information","Message":"Create guest with id: 2"}
+{"EventId":92,"LogLevel":"Information","Message":"Processing request /Guest/Details/2"}
+{"EventId":93,"LogLevel":"Information","Message":"Processing request /Guest/Details/2"}
+{"EventId":94,"LogLevel":"Information","Message":"Processing request /Guest"}
+{"EventId":96,"LogLevel":"Information","Message":"Start server"}
+{"EventId":97,"LogLevel":"Information","Message":"Start server"}
+{"EventId":98,"LogLevel":"Information","Message":"Delete guest with id: 2"}
+{"EventId":99,"LogLevel":"Information","Message":"User logged out."}
+{"EventId":100,"LogLevel":"Information","Message":"Start server"}
+{"EventId":101,"LogLevel":"Information","Message":"User created a new account with password."}
+{"EventId":101,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":103,"LogLevel":"Information","Message":"Start server"}
+{"EventId":104,"LogLevel":"Information","Message":"Start server"}
+{"EventId":105,"LogLevel":"Information","Message":"Edit guest with id: 3"}
+{"EventId":106,"LogLevel":"Information","Message":"Start server"}
+{"EventId":107,"LogLevel":"Information","Message":"Start server"}
+{"EventId":108,"LogLevel":"Information","Message":"Failed delete guest with id: 12321321"}
+{"EventId":109,"LogLevel":"Information","Message":"Start server"}
+{"EventId":110,"LogLevel":"Information","Message":"Start server"}
+{"EventId":111,"LogLevel":"Information","Message":"Start server"}
+{"EventId":112,"LogLevel":"Information","Message":"Start server"}
+{"EventId":113,"LogLevel":"Information","Message":"Start server"}
+{"EventId":114,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":115,"LogLevel":"Information","Message":"Start server"}
+{"EventId":116,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":116,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":118,"LogLevel":"Information","Message":"Start server"}
+{"EventId":119,"LogLevel":"Information","Message":"Start server"}
+{"EventId":120,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":121,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":122,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":123,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":124,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":120,"LogLevel":"Error","Message":"The view \u0027Booking\u0027 was not found. Searched locations: /Views/Booking/Booking.cshtml, /Views/Shared/Booking.cshtml, /Pages/Shared/Booking.cshtml"}
+{"EventId":125,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":127,"LogLevel":"Information","Message":"Start server"}
+{"EventId":128,"LogLevel":"Information","Message":"Start server"}
+{"EventId":129,"LogLevel":"Error","Message":"The view \u0027Booking\u0027 was not found. Searched locations: /Views/Booking/Booking.cshtml, /Views/Shared/Booking.cshtml, /Pages/Shared/Booking.cshtml"}
+{"EventId":129,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":131,"LogLevel":"Information","Message":"Start server"}
+{"EventId":132,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":133,"LogLevel":"Information","Message":"Start server"}
+{"EventId":134,"LogLevel":"Information","Message":"Start server"}
+{"EventId":135,"LogLevel":"Information","Message":"Start server"}
+{"EventId":136,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":137,"LogLevel":"Information","Message":"Start server"}
+{"EventId":138,"LogLevel":"Information","Message":"Start server"}
+{"EventId":139,"LogLevel":"Information","Message":"Start server"}
+{"EventId":140,"LogLevel":"Information","Message":"Start server"}
+{"EventId":141,"LogLevel":"Information","Message":"Start server"}
+{"EventId":142,"LogLevel":"Information","Message":"Start server"}
+{"EventId":143,"LogLevel":"Information","Message":"Start server"}
+{"EventId":144,"LogLevel":"Information","Message":"Start server"}
+{"EventId":145,"LogLevel":"Information","Message":"Start server"}
+{"EventId":146,"LogLevel":"Information","Message":"Start server"}
+{"EventId":147,"LogLevel":"Information","Message":"Start server"}
+{"EventId":148,"LogLevel":"Information","Message":"Start server"}
+{"EventId":149,"LogLevel":"Information","Message":"Start server"}
+{"EventId":149,"LogLevel":"Error","Message":"Failed executing DbCommand (16ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = Int32), @p2=\u0027?\u0027 (Size = 4000)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Rooms] ([ID], [CategoryID], [Name])\r\nVALUES (@p0, @p1, @p2);"}
+{"EventId":149,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Rooms\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:152ab73d-79ea-40cf-a111-eac92a3a76d5\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":152,"LogLevel":"Information","Message":"Start server"}
+{"EventId":153,"LogLevel":"Information","Message":"Start server"}
+{"EventId":154,"LogLevel":"Information","Message":"Start server"}
+{"EventId":155,"LogLevel":"Information","Message":"Start server"}
+{"EventId":155,"LogLevel":"Error","Message":"Failed executing DbCommand (15ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = Int32), @p2=\u0027?\u0027 (DbType = Int32), @p3=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Categories] ([ID], [Bed], [MaxPeople], [Name])\r\nVALUES (@p0, @p1, @p2, @p3);"}
+{"EventId":155,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Categories\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:09fa1e38-1817-4724-b9d5-560336b20105\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":156,"LogLevel":"Error","Message":"Failed executing DbCommand (6ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = Int32), @p2=\u0027?\u0027 (DbType = Int32), @p3=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Categories] ([ID], [Bed], [MaxPeople], [Name])\r\nVALUES (@p0, @p1, @p2, @p3);"}
+{"EventId":156,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Categories\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:09fa1e38-1817-4724-b9d5-560336b20105\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":160,"LogLevel":"Information","Message":"Start server"}
+{"EventId":160,"LogLevel":"Error","Message":"Failed executing DbCommand (17ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = Int32), @p2=\u0027?\u0027 (DbType = Int32), @p3=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Categories] ([ID], [Bed], [MaxPeople], [Name])\r\nVALUES (@p0, @p1, @p2, @p3);"}
+{"EventId":160,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Categories\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:a43c5e6e-6eba-47e0-9855-a8cb09774c8e\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":163,"LogLevel":"Information","Message":"Start server"}
+{"EventId":164,"LogLevel":"Information","Message":"Start server"}
+{"EventId":165,"LogLevel":"Information","Message":"Start server"}
+{"EventId":166,"LogLevel":"Information","Message":"Start server"}
+{"EventId":167,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":168,"LogLevel":"Information","Message":"Start server"}
+{"EventId":169,"LogLevel":"Information","Message":"Start server"}
+{"EventId":170,"LogLevel":"Information","Message":"Start server"}
+{"EventId":171,"LogLevel":"Information","Message":"Start server"}
+{"EventId":172,"LogLevel":"Information","Message":"Start server"}
+{"EventId":173,"LogLevel":"Information","Message":"Start server"}
+{"EventId":174,"LogLevel":"Information","Message":"Start server"}
+{"EventId":175,"LogLevel":"Information","Message":"Start server"}
+{"EventId":176,"LogLevel":"Information","Message":"Start server"}
+{"EventId":177,"LogLevel":"Information","Message":"Start server"}
+{"EventId":178,"LogLevel":"Information","Message":"User logged out."}
+{"EventId":179,"LogLevel":"Information","Message":"User created a new account with password."}
+{"EventId":178,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":181,"LogLevel":"Information","Message":"Start server"}
+{"EventId":182,"LogLevel":"Information","Message":"Start server"}
+{"EventId":183,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":184,"LogLevel":"Information","Message":"Start server"}
+{"EventId":185,"LogLevel":"Information","Message":"Start server"}
+{"EventId":186,"LogLevel":"Warning","Message":"Role 71bad204-21c1-459b-bf09-fddce73cd721 validation failed: DuplicateRoleName."}
+{"EventId":187,"LogLevel":"Warning","Message":"Role fd38d75f-cdcc-4dd0-9d32-83ba3352b955 validation failed: DuplicateRoleName."}
+{"EventId":188,"LogLevel":"Warning","Message":"Role 4107fdb2-eed2-44fc-8199-ea73165a429d validation failed: DuplicateRoleName."}
+{"EventId":189,"LogLevel":"Warning","Message":"Role a84d8a9b-2b9b-46f4-a62a-4b16b06706c9 validation failed: DuplicateRoleName."}
+{"EventId":190,"LogLevel":"Information","Message":"Start server"}
+{"EventId":191,"LogLevel":"Information","Message":"Start server"}
+{"EventId":192,"LogLevel":"Information","Message":"Start server"}
+{"EventId":193,"LogLevel":"Error","Message":"The view \u0027Edit\u0027 was not found. Searched locations: /Views/Booking/Edit.cshtml, /Views/Shared/Edit.cshtml, /Pages/Shared/Edit.cshtml"}
+{"EventId":193,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":194,"LogLevel":"Error","Message":"The view \u0027Details\u0027 was not found. Searched locations: /Views/Booking/Details.cshtml, /Views/Shared/Details.cshtml, /Pages/Shared/Details.cshtml"}
+{"EventId":194,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":195,"LogLevel":"Error","Message":"The view \u0027Delete\u0027 was not found. Searched locations: /Views/Booking/Delete.cshtml, /Views/Shared/Delete.cshtml, /Pages/Shared/Delete.cshtml"}
+{"EventId":195,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":199,"LogLevel":"Information","Message":"Start server"}
+{"EventId":200,"LogLevel":"Information","Message":"Start server"}
+{"EventId":201,"LogLevel":"Information","Message":"Start server"}
+{"EventId":202,"LogLevel":"Error","Message":"The view \u0027Edit\u0027 was not found. Searched locations: /Views/Booking/Edit.cshtml, /Views/Shared/Edit.cshtml, /Pages/Shared/Edit.cshtml"}
+{"EventId":202,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":204,"LogLevel":"Information","Message":"Start server"}
+{"EventId":205,"LogLevel":"Information","Message":"Start server"}
+{"EventId":206,"LogLevel":"Information","Message":"Start server"}
+{"EventId":207,"LogLevel":"Information","Message":"Start server"}
+{"EventId":208,"LogLevel":"Information","Message":"Start server"}
+{"EventId":209,"LogLevel":"Information","Message":"Start server"}
+{"EventId":210,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":211,"LogLevel":"Information","Message":"Start server"}
+{"EventId":212,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":213,"LogLevel":"Information","Message":"Start server"}
+{"EventId":214,"LogLevel":"Information","Message":"User logged out."}
+{"EventId":215,"LogLevel":"Information","Message":"Start server"}
+{"EventId":216,"LogLevel":"Information","Message":"Start server"}
+{"EventId":217,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":218,"LogLevel":"Information","Message":"Start server"}
+{"EventId":219,"LogLevel":"Information","Message":"User logged out."}
+{"EventId":220,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":219,"LogLevel":"Warning","Message":"Role 15859b20-a431-4434-a071-6e54ef4f2dac validation failed: DuplicateRoleName."}
+{"EventId":220,"LogLevel":"Warning","Message":"Role a9bbb5a7-93ed-483f-9eb1-cdd6aa4a20ff validation failed: DuplicateRoleName."}
+{"EventId":221,"LogLevel":"Warning","Message":"Role e6d0f551-9ac5-40a5-832a-3d352fc73df9 validation failed: DuplicateRoleName."}
+{"EventId":222,"LogLevel":"Warning","Message":"Role 6725f65d-0775-4d88-b58c-37c4d9508a90 validation failed: DuplicateRoleName."}
+{"EventId":223,"LogLevel":"Warning","Message":"Role fe11f929-6f2f-4a4c-9d82-4c147712f7b5 validation failed: DuplicateRoleName."}
+{"EventId":224,"LogLevel":"Warning","Message":"Role 47490b61-ec78-41d6-a7b8-57ba89761da3 validation failed: DuplicateRoleName."}
+{"EventId":227,"LogLevel":"Information","Message":"Start server"}
+{"EventId":228,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":228,"LogLevel":"Warning","Message":"Role 0f11f06c-2dc8-4f10-b260-2257a113bb88 validation failed: DuplicateRoleName."}
+{"EventId":229,"LogLevel":"Warning","Message":"Role cd0668b9-fd91-4528-8a11-8e376b030c3c validation failed: DuplicateRoleName."}
+{"EventId":230,"LogLevel":"Warning","Message":"Role 6ddba347-a41e-40a4-845f-67ac0eeb84af validation failed: DuplicateRoleName."}
+{"EventId":231,"LogLevel":"Warning","Message":"Role d43a4f7c-90be-4afd-a9a3-5ea6f28f6640 validation failed: DuplicateRoleName."}
+{"EventId":232,"LogLevel":"Warning","Message":"Role 9b7e2c16-dd20-4bf4-b9ab-e24dd1441b5d validation failed: DuplicateRoleName."}
+{"EventId":233,"LogLevel":"Warning","Message":"Role 0a9ee6ab-2b22-4fe2-b7ac-2fd5cb40ff73 validation failed: DuplicateRoleName."}
+{"EventId":235,"LogLevel":"Information","Message":"Start server"}
+{"EventId":236,"LogLevel":"Warning","Message":"Role 9fedb836-a452-409d-a80d-28cdd9c240af validation failed: DuplicateRoleName."}
+{"EventId":237,"LogLevel":"Warning","Message":"Role be088e5c-8499-4446-b155-a61256910bca validation failed: DuplicateRoleName."}
+{"EventId":238,"LogLevel":"Warning","Message":"Role e1167f50-9ab1-4eab-846a-43e0c3c1b5ca validation failed: DuplicateRoleName."}
+{"EventId":239,"LogLevel":"Warning","Message":"Role 6a3a78da-55f6-4a58-a293-72b9bad6e938 validation failed: DuplicateRoleName."}
+{"EventId":240,"LogLevel":"Information","Message":"Start server"}
+{"EventId":241,"LogLevel":"Warning","Message":"Role 4ba62062-9f4c-405a-8c17-1086faf193cd validation failed: DuplicateRoleName."}
+{"EventId":242,"LogLevel":"Warning","Message":"Role 32bcfc68-2b28-4e95-8221-d9f8eda87edb validation failed: DuplicateRoleName."}
+{"EventId":243,"LogLevel":"Information","Message":"Start server"}
+{"EventId":244,"LogLevel":"Warning","Message":"Role 356dd49b-8598-4b08-aafc-614573c6eba3 validation failed: DuplicateRoleName."}
+{"EventId":245,"LogLevel":"Warning","Message":"Role 92695d00-0f22-4d9f-b484-e52ec76a157b validation failed: DuplicateRoleName."}
+{"EventId":246,"LogLevel":"Information","Message":"Start server"}
+{"EventId":247,"LogLevel":"Information","Message":"Start server"}
+{"EventId":247,"LogLevel":"Error","Message":"Failed executing DbCommand (23ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = DateTime2), @p2=\u0027?\u0027 (DbType = DateTime2), @p3=\u0027?\u0027 (DbType = DateTime2), @p4=\u0027?\u0027 (DbType = Int32), @p5=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Bookings] ([ID], [BookingDate], [CheckIn], [CkeckOut], [GuestID], [RoomID])\r\nVALUES (@p0, @p1, @p2, @p3, @p4, @p5);"}
+{"EventId":247,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Bookings\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:7b95f647-61a9-49d8-8fb0-3f1987fc2255\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":248,"LogLevel":"Error","Message":"Failed executing DbCommand (7ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = DateTime2), @p2=\u0027?\u0027 (DbType = DateTime2), @p3=\u0027?\u0027 (DbType = DateTime2), @p4=\u0027?\u0027 (DbType = Int32), @p5=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Bookings] ([ID], [BookingDate], [CheckIn], [CkeckOut], [GuestID], [RoomID])\r\nVALUES (@p0, @p1, @p2, @p3, @p4, @p5);"}
+{"EventId":248,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Bookings\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:7b95f647-61a9-49d8-8fb0-3f1987fc2255\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":252,"LogLevel":"Information","Message":"Start server"}
+{"EventId":253,"LogLevel":"Information","Message":"Start server"}
+{"EventId":254,"LogLevel":"Information","Message":"Start server"}
+{"EventId":255,"LogLevel":"Error","Message":"The view \u0027Login\u0027 was not found. Searched locations: /Views/Categories/Login.cshtml, /Views/Shared/Login.cshtml, /Pages/Shared/Login.cshtml"}
+{"EventId":255,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":256,"LogLevel":"Error","Message":"The view \u0027Login\u0027 was not found. Searched locations: /Views/Categories/Login.cshtml, /Views/Shared/Login.cshtml, /Pages/Shared/Login.cshtml"}
+{"EventId":256,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":259,"LogLevel":"Information","Message":"Start server"}
+{"EventId":260,"LogLevel":"Information","Message":"Start server"}
+{"EventId":261,"LogLevel":"Error","Message":"The view \u0027Login\u0027 was not found. Searched locations: /Views/Categories/Login.cshtml, /Views/Shared/Login.cshtml, /Pages/Shared/Login.cshtml"}
+{"EventId":261,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":262,"LogLevel":"Error","Message":"The view \u0027Login\u0027 was not found. Searched locations: /Views/Categories/Login.cshtml, /Views/Shared/Login.cshtml, /Pages/Shared/Login.cshtml"}
+{"EventId":262,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":265,"LogLevel":"Information","Message":"Start server"}
+{"EventId":266,"LogLevel":"Error","Message":"The view \u0027Login\u0027 was not found. Searched locations: /Views/Categories/Login.cshtml, /Views/Shared/Login.cshtml, /Pages/Shared/Login.cshtml"}
+{"EventId":266,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":268,"LogLevel":"Information","Message":"Start server"}
+{"EventId":269,"LogLevel":"Error","Message":"The view \u0027Login\u0027 was not found. Searched locations: /Views/Categories/Login.cshtml, /Views/Shared/Login.cshtml, /Pages/Shared/Login.cshtml"}
+{"EventId":269,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":271,"LogLevel":"Information","Message":"Start server"}
+{"EventId":272,"LogLevel":"Information","Message":"Start server"}
+{"EventId":273,"LogLevel":"Information","Message":"Start server"}
+{"EventId":274,"LogLevel":"Information","Message":"Start server"}
+{"EventId":275,"LogLevel":"Information","Message":"Start server"}
+{"EventId":276,"LogLevel":"Information","Message":"Start server"}
+{"EventId":277,"LogLevel":"Information","Message":"Start server"}
+{"EventId":278,"LogLevel":"Information","Message":"Start server"}
+{"EventId":279,"LogLevel":"Information","Message":"Start server"}
+{"EventId":280,"LogLevel":"Information","Message":"Start server"}
+{"EventId":281,"LogLevel":"Information","Message":"Start server"}
+{"EventId":282,"LogLevel":"Information","Message":"Start server"}
+{"EventId":283,"LogLevel":"Information","Message":"Start server"}
+{"EventId":284,"LogLevel":"Information","Message":"Start server"}
+{"EventId":285,"LogLevel":"Information","Message":"Start server"}
+{"EventId":286,"LogLevel":"Information","Message":"Start server"}
+{"EventId":287,"LogLevel":"Information","Message":"Start server"}
+{"EventId":288,"LogLevel":"Information","Message":"Start server"}
+{"EventId":289,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":289,"LogLevel":"Warning","Message":"Role 13264c87-d5c6-41a8-b385-cdb4feaf9a6c validation failed: DuplicateRoleName."}
+{"EventId":290,"LogLevel":"Warning","Message":"Role 7499ab31-98a7-4bcc-8b1e-de25a7153fc2 validation failed: DuplicateRoleName."}
+{"EventId":292,"LogLevel":"Information","Message":"Start server"}
+{"EventId":293,"LogLevel":"Information","Message":"Start server"}
+{"EventId":294,"LogLevel":"Information","Message":"Start server"}
+{"EventId":295,"LogLevel":"Information","Message":"Start server"}
+{"EventId":296,"LogLevel":"Information","Message":"Start server"}
+{"EventId":297,"LogLevel":"Information","Message":"Start server"}
+{"EventId":298,"LogLevel":"Warning","Message":"Role 77eb9a13-b966-4537-a885-3a9fd2535665 validation failed: DuplicateRoleName."}
+{"EventId":299,"LogLevel":"Warning","Message":"Role 7614cac1-fa64-48ea-bcb7-7e2093a30dfd validation failed: DuplicateRoleName."}
+{"EventId":300,"LogLevel":"Warning","Message":"Role 5a115bbf-7f48-40bf-bcda-d679358ce0c9 validation failed: DuplicateRoleName."}
+{"EventId":301,"LogLevel":"Warning","Message":"Role 2785175c-e9c1-4c9a-80a8-0f1cdfd00957 validation failed: DuplicateRoleName."}
+{"EventId":302,"LogLevel":"Information","Message":"Start server"}
+{"EventId":303,"LogLevel":"Warning","Message":"Role a3097c64-fdf0-40b4-972d-a264b53be7ac validation failed: DuplicateRoleName."}
+{"EventId":304,"LogLevel":"Warning","Message":"Role 2a9964a1-c929-4f58-89db-3070042b4d11 validation failed: DuplicateRoleName."}
+{"EventId":305,"LogLevel":"Information","Message":"Start server"}
+{"EventId":306,"LogLevel":"Warning","Message":"Role 9095ad17-010e-4bc4-82fa-121038aaa860 validation failed: DuplicateRoleName."}
+{"EventId":307,"LogLevel":"Warning","Message":"Role b3f3df4b-59b3-4a44-ab06-7a99b05694ec validation failed: DuplicateRoleName."}
+{"EventId":306,"LogLevel":"Information","Message":"Create guest with id: 5"}
+{"EventId":309,"LogLevel":"Information","Message":"Start server"}
+{"EventId":310,"LogLevel":"Information","Message":"Delete guest with id: 5"}
+{"EventId":311,"LogLevel":"Information","Message":"Delete guest with id: 4"}
+{"EventId":312,"LogLevel":"Information","Message":"User logged out."}
+{"EventId":313,"LogLevel":"Information","Message":"User created a new account with password."}
+{"EventId":314,"LogLevel":"Information","Message":"User logged out."}
+{"EventId":315,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":316,"LogLevel":"Information","Message":"Start server"}
+{"EventId":317,"LogLevel":"Information","Message":"Edit guest with id: 6"}
+{"EventId":318,"LogLevel":"Information","Message":"Start server"}
+{"EventId":319,"LogLevel":"Information","Message":"Start server"}
+{"EventId":320,"LogLevel":"Information","Message":"Edit guest with id: 6"}
+{"EventId":321,"LogLevel":"Information","Message":"Edit guest with id: 6"}
+{"EventId":322,"LogLevel":"Information","Message":"Start server"}
+{"EventId":323,"LogLevel":"Information","Message":"Start server"}
+{"EventId":324,"LogLevel":"Information","Message":"Start server"}
+{"EventId":325,"LogLevel":"Information","Message":"Start server"}
+{"EventId":326,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":327,"LogLevel":"Information","Message":"Start server"}
+{"EventId":328,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":329,"LogLevel":"Information","Message":"Start server"}
+{"EventId":330,"LogLevel":"Information","Message":"Start server"}
+{"EventId":331,"LogLevel":"Information","Message":"Start server"}
+{"EventId":332,"LogLevel":"Information","Message":"Start server"}
+{"EventId":333,"LogLevel":"Information","Message":"Start server"}
+{"EventId":334,"LogLevel":"Information","Message":"Start server"}
+{"EventId":335,"LogLevel":"Information","Message":"Start server"}
+{"EventId":336,"LogLevel":"Information","Message":"Start server"}
+{"EventId":337,"LogLevel":"Information","Message":"Start server"}
+{"EventId":338,"LogLevel":"Information","Message":"Start server"}
+{"EventId":339,"LogLevel":"Information","Message":"Start server"}
+{"EventId":340,"LogLevel":"Information","Message":"Start server"}
+{"EventId":341,"LogLevel":"Information","Message":"Start server"}
+{"EventId":342,"LogLevel":"Information","Message":"Start server"}
+{"EventId":343,"LogLevel":"Information","Message":"Start server"}
+{"EventId":343,"LogLevel":"Error","Message":"Failed executing DbCommand (12ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = Int32), @p2=\u0027?\u0027 (Size = 4000)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Rooms] ([ID], [CategoryID], [Name])\r\nVALUES (@p0, @p1, @p2);"}
+{"EventId":343,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Rooms\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:9501d7ca-dd92-47d9-aada-b810cb4837d5\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":346,"LogLevel":"Information","Message":"Start server"}
+{"EventId":347,"LogLevel":"Information","Message":"Start server"}
+{"EventId":347,"LogLevel":"Error","Message":"Failed executing DbCommand (13ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = Int32), @p2=\u0027?\u0027 (DbType = Int32), @p3=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Categories] ([ID], [Bed], [MaxPeople], [Name])\r\nVALUES (@p0, @p1, @p2, @p3);"}
+{"EventId":347,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Categories\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.ExecuteReader()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:ec346877-ae5b-45b6-b7e0-bda302b04b0b\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":348,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":348,"LogLevel":"Error","Message":"Failed executing DbCommand (4ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = Int32), @p2=\u0027?\u0027 (DbType = Int32), @p3=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Categories] ([ID], [Bed], [MaxPeople], [Name])\r\nVALUES (@p0, @p1, @p2, @p3);"}
+{"EventId":348,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Categories\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.ExecuteReader()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:ec346877-ae5b-45b6-b7e0-bda302b04b0b\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":349,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":354,"LogLevel":"Information","Message":"Start server"}
+{"EventId":355,"LogLevel":"Information","Message":"Start server"}
+{"EventId":356,"LogLevel":"Information","Message":"Start server"}
+{"EventId":357,"LogLevel":"Information","Message":"Start server"}
+{"EventId":358,"LogLevel":"Information","Message":"Start server"}
+{"EventId":359,"LogLevel":"Information","Message":"Start server"}
+{"EventId":360,"LogLevel":"Information","Message":"Start server"}
+{"EventId":361,"LogLevel":"Information","Message":"Start server"}
+{"EventId":362,"LogLevel":"Information","Message":"Start server"}
+{"EventId":363,"LogLevel":"Information","Message":"Start server"}
+{"EventId":364,"LogLevel":"Information","Message":"Start server"}
+{"EventId":365,"LogLevel":"Information","Message":"Start server"}
+{"EventId":366,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":366,"LogLevel":"Warning","Message":"Role 5833563a-87b9-4c15-85d5-bb0a84041270 validation failed: DuplicateRoleName."}
+{"EventId":367,"LogLevel":"Warning","Message":"Role 24c01b14-ce7b-4b39-b8b0-a52aa5827cca validation failed: DuplicateRoleName."}
+{"EventId":369,"LogLevel":"Information","Message":"Start server"}
+{"EventId":370,"LogLevel":"Information","Message":"Start server"}
+{"EventId":370,"LogLevel":"Error","Message":"Failed executing DbCommand (8ms) [Parameters=[@p0=\u0027?\u0027 (DbType = Int32), @p1=\u0027?\u0027 (DbType = Int32), @p2=\u0027?\u0027 (DbType = Int32), @p3=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Categories] ([ID], [Bed], [MaxPeople], [Name])\r\nVALUES (@p0, @p1, @p2, @p3);"}
+{"EventId":370,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table \u0027Categories\u0027 when IDENTITY_INSERT is set to OFF.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.ExecuteReader()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:a72a2a70-2d2c-4015-b510-67714f303940\r\nError Number:544,State:1,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":373,"LogLevel":"Information","Message":"Start server"}
+{"EventId":374,"LogLevel":"Information","Message":"Start server"}
+{"EventId":375,"LogLevel":"Information","Message":"Start server"}
+{"EventId":376,"LogLevel":"Information","Message":"Start server"}
+{"EventId":377,"LogLevel":"Information","Message":"Start server"}
+{"EventId":378,"LogLevel":"Information","Message":"Edit guest with id: 6"}
+{"EventId":379,"LogLevel":"Information","Message":"Start server"}
+{"EventId":380,"LogLevel":"Information","Message":"Start server"}
+{"EventId":381,"LogLevel":"Information","Message":"Start server"}
+{"EventId":382,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":383,"LogLevel":"Information","Message":"Start server"}
+{"EventId":384,"LogLevel":"Information","Message":"Start server"}
+{"EventId":385,"LogLevel":"Error","Message":"An unhandled exception has occurred while executing the request."}
+{"EventId":386,"LogLevel":"Information","Message":"Start server"}
+{"EventId":387,"LogLevel":"Information","Message":"Start server"}
+{"EventId":388,"LogLevel":"Information","Message":"Start server"}
+{"EventId":388,"LogLevel":"Error","Message":"Failed executing DbCommand (23ms) [Parameters=[@p0=\u0027?\u0027 (DbType = DateTime2), @p1=\u0027?\u0027 (DbType = DateTime2), @p2=\u0027?\u0027 (DbType = DateTime2), @p3=\u0027?\u0027 (DbType = Int32), @p4=\u0027?\u0027 (DbType = Int32)], CommandType=\u0027Text\u0027, CommandTimeout=\u002730\u0027]\r\nSET NOCOUNT ON;\r\nINSERT INTO [Bookings] ([BookingDate], [CheckIn], [CkeckOut], [GuestID], [RoomID])\r\nVALUES (@p0, @p1, @p2, @p3, @p4);\r\nSELECT [ID]\r\nFROM [Bookings]\r\nWHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();"}
+{"EventId":388,"LogLevel":"Error","Message":"An exception occurred in the database while saving changes for context type \u0027Hotel.DAL.EF.HotelContext\u0027.\r\nMicrosoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.\r\n ---\u003E Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint \u0022FK_Bookings_Guests_GuestID\u0022. The conflict occurred in database \u0022Hotel\u0022, table \u0022dbo.Guests\u0022, column \u0027ID\u0027.\r\nThe statement has been terminated.\r\n   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action\u00601 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean\u0026 dataReady)\r\n   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\r\n   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()\r\n   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task\u0026 task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\r\n   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource\u00601 completion, Int32 timeout, Task\u0026 task, Boolean\u0026 usedCache, Boolean asyncWrite, Boolean inRetry, String method)\r\n   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\nClientConnectionId:14e536b7-38ed-4914-abce-49b8cdeeab59\r\nError Number:547,State:0,Class:16\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable\u00601 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList\u00601 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList\u00601 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func\u00603 operation, Func\u00603 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)"}
+{"EventId":391,"LogLevel":"Information","Message":"Start server"}
+{"EventId":392,"LogLevel":"Information","Message":"User logged out."}
+{"EventId":392,"LogLevel":"Warning","Message":"User validation failed: DuplicateUserName;DuplicateEmail."}
+{"EventId":393,"LogLevel":"Information","Message":"Username \u0027admin@hotel.com\u0027 is already taken."}
+{"EventId":394,"LogLevel":"Information","Message":"Email \u0027admin@hotel.com\u0027 is already taken."}
+{"EventId":396,"LogLevel":"Information","Message":"Start server"}
+{"EventId":397,"LogLevel":"Information","Message":"User created a new account with password."}
+{"EventId":398,"LogLevel":"Information","Message":"Edit guest with id: 3"}
+{"EventId":399,"LogLevel":"Information","Message":"Delete guest with id: 2"}
+{"EventId":400,"LogLevel":"Information","Message":"Start server"}
+{"EventId":401,"LogLevel":"Information","Message":"Start server"}
+{"EventId":402,"LogLevel":"Information","Message":"Start server"}
+{"EventId":403,"LogLevel":"Information","Message":"Start server"}
+{"EventId":404,"LogLevel":"Information","Message":"Start server"}
+{"EventId":405,"LogLevel":"Information","Message":"Start server"}
+{"EventId":406,"LogLevel":"Information","Message":"Start server"}
+{"EventId":407,"LogLevel":"Information","Message":"Start server"}
+{"EventId":408,"LogLevel":"Information","Message":"Start server"}
+{"EventId":409,"LogLevel":"Information","Message":"Start server"}
+{"EventId":410,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":410,"LogLevel":"Warning","Message":"Role 9b829906-b273-44f2-afdd-a1c507d49ede validation failed: DuplicateRoleName."}
+{"EventId":411,"LogLevel":"Warning","Message":"Role e3c34674-c4b5-4197-b2be-a9b9167f9526 validation failed: DuplicateRoleName."}
+{"EventId":413,"LogLevel":"Information","Message":"Start server"}
+{"EventId":414,"LogLevel":"Information","Message":"User logged in."}
+{"EventId":415,"LogLevel":"Information","Message":"Start server"}

@@ -1,13 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using Hotel.DAL.Entities;
+using System.Collections.Generic;
 
 namespace Hotel.BLL.DTO
 {
-    public class RoomDTO
+    public class RoomDTO : Room
     {
-        public int ID { set; get; }
-        public int CategoryID { set; get; }
-        public string Name { set; get; }
-        public CategoryDTO Category { set; get; }
-        public ICollection<BookingDTO> Bookings { get; set; }
+        public new virtual CategoryDTO Category { set; get; }
+        public new virtual ICollection<BookingDTO> Bookings { get; set; }
     }
 }

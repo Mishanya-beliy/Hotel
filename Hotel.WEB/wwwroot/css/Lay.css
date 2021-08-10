@@ -1,0 +1,104 @@
+.btn {
+    margin-bottom: 15px;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+select {
+    background-color: #232323;
+    color: ghostwhite;
+}
+dd {
+    color: whitesmoke;
+}
+input:-internal-autofill-selected {
+    background-color: #232323 !important;
+    color: #232323 !important;
+    padding-left: 15px !important;
+}
+input {
+    padding-left: 15px !important;
+    background-color: #232323;
+    color: ghostwhite;
+}
+a{
+    color:whitesmoke;
+}
+table:nth-column(2n+1):first-child{
+    color:white;
+}
+table:nth-column(2n+1){
+    color:white;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: large;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.bottom {
+    bottom: 0px;
+}
+
+.pin-top{
+    position: relative;
+}
+
+.pin-bottom{
+    position: fixed;
+}
+
+.pinned{
+    position: fixed;
+}
+.pushpin{
+    right:2%;
+    float:right;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.headers{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: larger;
+}
+
+#focus-container{
+    position: relative;
+
+}
+.header{
+    font-size: xxx-large;
+    padding: 15px;
+}
+
+#focus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo{
+    height: 56px;
+    padding: 2px;
+}
+
+.card-content{
+    padding: 5px;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+
+label {
+    font-size: 16px;
+    color: red;
+}

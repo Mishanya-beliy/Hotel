@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Hotel.BLL.DTO;
 using Hotel.BLL.Interfaces;
+using Hotel.DAL.Entities;
 using Hotel.DAL.Interfaces;
 using System.Collections.Generic;
 
@@ -22,7 +23,23 @@ namespace Hotel.BLL.Services
         }
         public CategoryDTO Get(int id)
         {
-            return _mapper.Map<CategoryDTO>(_database.Categories.Get(id));
+            var som = _mapper.Map<CategoryDTO>(_database.Categories.Get(id));
+            return som;
+        }
+
+        public int Create(CategoryDTO category)
+        {
+            return _database.Categories.Create(_mapper.Map<Category>(category));
+        }
+
+        public bool Update(CategoryDTO category)
+        {
+            return _database.Categories.Update(category.ID,_mapper.Map<Category>(category));
+        }
+
+        public bool Delete(int id)
+        {
+            return _database.Categories.Delete(id);
         }
     }
 }

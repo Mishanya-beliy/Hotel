@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Hotel.WEB.Models.Guest.ShortGuest>
+
+@{
+    ViewBag.Title = "Guests";
+}
+
+<div class="container">
+    <br />
+    <h3>
+        Guests
+        <a asp-action="Create" class="right">Add</a>
+    </h3>
+    <table class="table hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FullName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateOfBirth)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.City)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var guest in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => guest.ID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => guest.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => guest.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => guest.DateOfBirth)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => guest.City)
+                    </td>
+                    <td class="right">
+                        <a asp-action="Details" asp-route-id="@guest.ID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@guest.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

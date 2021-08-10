@@ -179,5 +179,21 @@ namespace Hotel.Tests
 
             Assert.AreEqual(response, 888);
         }
+
+
+
+        private TestServer CreateServer()
+        {
+            var builder = new WebHostBuilder()
+            .UseStartup<Startup>();
+            //using (var testServer = CreateServer())
+            //{
+            //    var client = testServer.CreateClient();
+            //    var value = await client.GetAsync("api/Guest");
+            //    var response = value.Content;
+            //}
+            return new TestServer(builder);
+
+        }
     }
 }

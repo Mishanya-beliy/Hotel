@@ -34,14 +34,15 @@ namespace Hotel.API.Controllers
         }
 
         // GET api/<RoomController>/5
-        [HttpGet("{data}")]
-        public IEnumerable<RoomModel> FreeRoom(string data)
+        [HttpGet("{start}/{end}/{countPeople}")]
+        public IEnumerable<RoomModel> FreeRoom(string start, string end, string countPeople)
         {
-            if (DateTime.TryParse(data, out DateTime date))
-            {
-                return _mapper.Map<List<RoomModel>>(_service.GetFreeRoomsOnDate(date));
-            }
-            else return null;
+            if (DateTime.TryParse(start, out DateTime startDate))
+                if (DateTime.TryParse(end, out DateTime endDate))
+                    if (int.TryParse(countPeople, out int people))
+                        return _mapper.Map<List<RoomModel>>(_service.GetFreeRooms(startDate, endDate, people));
+            
+            return null;
         }  
     }
 }

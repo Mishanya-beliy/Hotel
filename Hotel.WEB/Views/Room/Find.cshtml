@@ -1,0 +1,35 @@
+﻿@model Hotel.WEB.Models.RoomFind
+
+<div class="container"><br />
+    
+    <h3>Find room</h3>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="row center">
+            <div class="col  m5">
+                @Html.LabelFor(model => model.From, new { @class = "left" })
+            </div>
+            <div class="col m5">
+                @Html.LabelFor(model => model.To, new { @class = "left" })
+            </div>
+            <div class="col m2">
+                @Html.LabelFor(model => model.CountPeople)
+            </div>
+            <div class="col  m5">
+                @Html.EditorFor(model => model.From)
+            </div>
+            <div class="col m5">
+                @Html.EditorFor(model => model.To)
+            </div>
+            <div class="col m2">
+                @Html.EditorFor(model => model.CountPeople)
+            </div>
+            <div class="col offset-m10 m2">
+                <input type="submit" class="btn right red black-text" value="Find" />
+            </div>
+        </div>
+    }
+</div>
+

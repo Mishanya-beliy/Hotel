@@ -7,7 +7,7 @@ namespace Hotel.DAL.Entities
         public int ID { set; get; }
         public int CategoryID { set; get; }
         public string Name { set; get; }
-        public Category Category { set; get; }
-        public ICollection<Booking> Bookings { get; set; }
+        public virtual Category Category { set; get; }
+        public virtual ICollection<Booking> Bookings { get; set; }
     }
 }

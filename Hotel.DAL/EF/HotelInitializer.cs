@@ -1,89 +1,150 @@
 ﻿using Hotel.DAL.Entities;
-using Hotel.DAL.Repositories;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Hotel.DAL.EF
 {
     public class HotelInitializer
     {
-        private static void CategoryInitializer(HotelContext context)
-        {
-            var category = new Category
-            {
-                Name = "Lux",
-                Bed = 2
-            };
+        //Winter
+        private const int winterStart = 11;
+        private const int winterEnd = 4;
+        //Summer
+        private const int summerStart = 5;
+        private const int summerEnd = 10;
 
-            context.Categories.Add(category);
-            context.SaveChanges();
-        }
-        private static void PriceInitializer(HotelContext context)
-        {
-            var price = new Price
-            {
-                CategoryID = 1,
-                Coast = 444,
-                Start = new DateTime(2021, 1, 1),
-                End = new DateTime(2021, 12, 31)
-            };
-            context.Prices.Add(price);
-            context.Categories.Find(1).Prices.Add(price);
-            context.SaveChanges();
-        }
-        private static void RoomInitializer(HotelContext context)
-        {
-            var room = new Room
-            {
-                CategoryID = 1,
-                Name = "101A",
-            };
 
-            context.Rooms.Add(room);
+        public static void Initialize(HotelContext context)
+        {
+            //context.Database.EnsureDeleted();
+            context.Database.EnsureCreated();
+
+            if (!context.Categories.Any())
+                CategoryInitialize(context);
+
+            if (!context.Prices.Any())
+                PriceInitialize(context, context.Categories.OrderBy(c => c.Name).ToList());
+
+            if (!context.Rooms.Any())
+                RoomInitialize(context);
+
+            if (!context.Guests.Any())
+                GuestInitialize(context);
+
+            if (!context.Bookings.Any())
+                BookingInitialize(context);
+
             context.SaveChanges();
         }
 
-        private static void GuestInitializer(HotelContext context)
+        public static void PriceInitialize(HotelContext context, List<Category> categories)
+        {
+            int year = 2020;
+            int startPrice = 111;
+            //Default
+            var defaultPrice = new Price
+            { 
+                Coast = 1000, Start = DateTime.MinValue, End = new DateTime(year, winterStart, 1) 
+            };
+            foreach (var cat in context.Categories)
+                defaultPrice.Categories.Add(cat);
+
+            Price price;
+            DateTime start;
+            DateTime end;
+            for (int j = 0; j < 10; j++)
+            {
+                //Winter
+                start = new DateTime(year, winterStart, 1);
+                end = new DateTime(year + 1, winterEnd, DateTime.DaysInMonth(year, winterEnd));
+                for (int i = 0; i < categories.Count; i++)
+                {
+                    price = new Price
+                    { Coast = startPrice * (i + 1), Start = start, End = end };
+                    price.Categories.Add(categories[i]);
+                    context.Prices.Add(price);
+                }
+
+                //Summer
+                year++;
+                start = new DateTime(year, summerStart, 1);
+                end = new DateTime(year, summerEnd, DateTime.DaysInMonth(year, summerEnd));
+                for (int i = 0; i < categories.Count; i++)
+                {
+                    price = new Price
+                    { Coast = startPrice * 2 * (i + 1), Start = start, End = end };
+                    price.Categories.Add(categories[i]);
+                    context.Prices.Add(price);
+                }
+            }
+
+            defaultPrice.Start = new DateTime(year, summerEnd + 1, 1);
+            defaultPrice.End = DateTime.MaxValue;
+            foreach (var cat in context.Categories)
+                defaultPrice.Categories.Add(cat);
+            context.Prices.Add(defaultPrice);
+
+            context.SaveChanges();
+        }
+
+        private static void CategoryInitialize(HotelContext context)
+        {
+            var categories = new List<Category>
+            {
+                new Category { Name = Categories.Single, Bed = 1, MaxPeople = 1},
+                new Category { Name = Categories.Double, Bed = 2, MaxPeople = 2},
+                new Category { Name = Categories.Triple, Bed = 3, MaxPeople = 3},
+                new Category { Name = Categories.Family, Bed = 4, MaxPeople = 5},
+                new Category { Name = Categories.President, Bed = 2, MaxPeople = 6},
+                new Category { Name = Categories.Lux, Bed = 3, MaxPeople = 6}
+            };
+            context.Categories.AddRange(categories);
+            context.SaveChanges();
+        }
+
+
+        private static void RoomInitialize(HotelContext context)
+        {
+            Room room;
+            int countRoomOnFloor = 3;
+            var categories = context.Categories.OrderBy(c => c.Name).ToList();
+
+
+            for (int i = 0; i < categories.Count; i++)
+                for (int j = 0; j < countRoomOnFloor; j++)
+                {
+                    room = new Room { Name = i + 1 + "0" + j + "A", CategoryID = categories[i].ID };
+                    context.Rooms.Add(room);
+                }
+
+            context.SaveChanges();
+        }
+
+        private static void GuestInitialize(HotelContext context)
         {
             var guest = new Guest
             {
                 Name = "Andrew",
                 Surname = "Andreev",
-                Patronymic = "Andreevich"
+                Patronymic = "Admin",
+                Email = "andew@gmail.com"
             };
             context.Guests.Add(guest);
             context.SaveChanges();
         }
 
-        private static void BookingInitializer(HotelContext context)
+        private static void BookingInitialize(HotelContext context)
         {
             var booking = new Booking
             {
-                GuestID = 1,
-                RoomID = 1,
-                BookingDate = DateTime.Now,
-                CheckIn = new DateTime(2021, 7, 1),
-                CkeckOut = new DateTime(2021, 7, 3)
+                GuestID = context.Guests.First().ID,
+                RoomID = context.Rooms.First().ID,
+                CheckIn = new DateTime(2021, 8, 1),
+                CkeckOut = new DateTime(2021, 8, 8)
             };
-            context.Guests.Find(1).Bookings.Add(booking);
             context.Bookings.Add(booking);
             context.SaveChanges();
-        }
-
-        public static void Initialize(HotelContext context)
-        {
-            context.Database.EnsureDeleted();
-            context.Database.EnsureCreated();
-
-            //if (context.Guests.Any)
-            //{
-            //    return;  
-            //}
-
-            CategoryInitializer(context);
-            PriceInitializer(context);
-            RoomInitializer(context);
-            GuestInitializer(context);
-            BookingInitializer(context);
         }
     }
 }
